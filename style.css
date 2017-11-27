@@ -32,3 +32,5 @@
 .box-1-of-4 {
     width: 24%;
 }
+
+@media screen and (max-width: 480px) {}
