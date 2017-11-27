@@ -1,0 +1,23 @@
+In gaming terms: Git is a checkpoint for your files
+
+Git was built for code collaboration
+
+Git is a tool that protects yourself and others from yourself and others
+
+setup a remote repo
+push to remote
+branches
+merging
+merge conflicts
+
+Master branch should always be clean and functional
+
+Merge conflict: a file has changed in both branches
+
+- If someone is given permission by the owner, they can clone the repo to their local machine, checkout a branch, and make changes before merging to master.
+
+- 3
+
+- No
+
+- Friendsgiving
