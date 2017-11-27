@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FlexBox Challenge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+            height: 100vh;
+        }
+
+        [class^="box"] {
+            background-color: #000;
+            height: 25vh;
+            border: 3px solid #fff;
+        }
+
+        .box1 {
+            width: 100%;
+        }
+
+        .box-1-of-2 {
+            width: 50%;
+        }
+
+        .box-1-of-3 {
+            width: 33.33%;
+        }
+
+        .box-1-of-4 {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="box1">1</div>
+        <div class="box-1-of-2">2</div>
+        <div class="box-1-of-2">3</div>
+        <div class="box-1-of-4">4</div>
+        <div class="box-1-of-4">5</div>
+        <div class="box-1-of-4">6</div>
+        <div class="box-1-of-4">7</div>
+        <div class="box-1-of-3">8</div>
+        <div class="box-1-of-3">9</div>
+        <div class="box-1-of-3">10</div>
+    </div>
+</body>
+
+</html>
